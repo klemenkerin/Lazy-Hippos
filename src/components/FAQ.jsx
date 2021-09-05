@@ -24,7 +24,7 @@ function FAQ() {
                 </div>
                 <div class="question">
                     <h3>How much will it cost to mint a Hippo?</h3>
-                    <p>Presale price will be only 1 SOL, so make sure you join our discord to be able to mint at presale. Main launch price will be 3 SOL pre Hippo.</p>
+                    <p>Presale price will be only 1 SOL, so make sure you join our discord to be able to mint at presale. Main launch price will be 3 SOL per Hippo.</p>
                 </div>
                 <div class="question">
                     <h3>Is there a limit on how many we can get?</h3>
