@@ -1,0 +1,399 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+    color: #000;
+    font-weight: bold;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+h2 {
+    font-size: 35px;
+    color: #000;
+    font-weight: bold;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+h3 {
+    font-size: 25px;
+    color: #000;
+    font-weight: bold;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+@media(max-width: 560px) {
+    h1 {
+        font-size: 35px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    li {
+        font-size: 14px !important;
+        width: 200px !important;
+    }
+    p {
+        font-size: 14px !important;
+    }
+    .connect {
+        display:none;
+    }
+}
+
+@media(max-width:980px) {
+    .attributes-title {
+        width: 100% !important;
+    }
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    color: #000;    
+}
+
+li {
+    line-height: 1.4;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+button {
+    color: #FFF;
+    background-color: #F38BA0;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Balsamiq Sans', cursive;
+    border: solid 2px #000;
+    width: 188px;
+    height: 48px;
+    border-radius: 12px;
+}
+
+button:hover {
+    background-color: #d17285;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-color: #EAFFD0;
+    border-radius: 0 0 50px 50px;
+}
+
+.container {
+    width: 80%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.navbar {
+    position: relative;
+    width: 100%;
+    top: 80px;
+}
+
+.logo {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+}
+
+.menu {
+    position: relative;
+    left: 400px;
+    width: fit-content;
+    display: inline-block;
+}
+
+@media(max-width: 1300px) {
+    .menu {
+        display: none;
+    }
+}
+
+.menu-item {
+    font-size: 25px;
+    color: #000;
+    font-weight: bold;
+    font-family: 'Balsamiq Sans', cursive;
+    text-decoration: none;
+    margin-right: 60px
+}
+
+.menu-item:hover {
+    color: #404040;
+}
+
+.connect {
+    position: absolute;
+    right: 0;
+}
+
+.content-header {
+    position: relative;
+    top: 240px;
+}
+
+.hippo-description {
+    margin-top: 20px;
+    font-weight: normal;
+}
+
+.hippo-image {
+    width: 480px;
+    float: right;
+}
+
+@media(max-width: 980px) {
+    .hippo-image {
+        display:none;
+    }
+}
+
+.coming-soon {
+    margin-top: 100px;
+}
+
+.fa-discord {
+    margin-top: 20px;
+    font-size: 55px;
+}
+
+.fa-twitter {
+    margin: 20px 0 0 20px;
+    font-size: 55px;
+}
+
+.fa-discord:hover {
+    color: #404040;
+}
+
+.fa-twitter:hover {
+    color: #404040;
+}
+
+.attributes {
+    width: 100%;
+    padding: 100px 0 30px 0;
+    min-height: 600px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.attribute-category {
+    margin: 0 75px 70px 75px;
+}
+
+.roadmap {
+    width: 100%;
+    padding: 100px 0;
+    min-height: 600px;
+    background-color: #F38181;
+    border-radius: 50px;
+}
+
+.RoadmapRow {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.RoadmapCard-Root {
+    display: flex;
+    flex: 1 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px;
+    background: #fff;
+    border: 8px solid #FCE38A;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+.RoadmapLine {
+    display: flex;
+    width: 120px;
+    justify-content: center;
+}
+
+.RoadmapLineCenter {
+    width: 8px;
+    background-color: #FCE38A;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    overflow: visible;
+}
+
+.RoadmapLineDot {
+    position: absolute;
+    margin-left: -18px;
+    width: 44px;
+    height: 44px;
+    border-radius: 22px;
+    border: 8px solid #FCE38A;
+    background-color: #fff;
+}
+
+.filled {
+    background-color: #FCE38A;
+}
+
+.RoadmapEmpty {
+    flex: 1 1;
+    padding: 32px;
+    border: 8px solid transparent;
+}
+
+.RoadmapRowFlip {
+    flex-direction: row-reverse;
+}
+
+@media (max-width: 768px) {
+    .RoadmapRow, .RoadmapRowFlip {
+        flex-direction: row-reverse;
+    }
+}
+
+@media (max-width: 1024px) {
+    .RoadmapLine {
+        width: 96px;
+    }
+}
+
+@media (max-width: 768px) {
+    .RoadmapLine {
+        width: 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    .RoadmapCard-Root {
+        margin-bottom: 32px;
+    }
+}
+
+@media (max-width: 768px) {
+    .RoadmapEmpty {
+        display: none;
+    }
+}
+
+
+
+.faq {
+    width: 100%;
+    min-height: 600px;
+    padding: 100px 0;
+}
+
+.question {
+    width: 400px;
+    padding: 32px;
+    border-radius: 25px;
+    border: 8px solid #FCE38A;
+    margin: 0 10px 20px 10px;
+}
+
+.question > h3 {
+    margin-bottom: 10px;
+}
+
+.footer {
+    width: 100%;
+    min-height: 300px;
+    background-color: #95E1D3;
+    border-radius: 50px 50px 0 0;
+}
+
+.footer-text {
+    position:absolute;
+    left: 0;
+    top: 150px;
+}
+
+.footer-discord {
+    position: absolute;
+    right: 110px;
+    top: 100px;
+    color: white;
+    font-size: 80px;
+}
+
+.footer-twitter {
+    position: absolute;
+    right: 0;
+    top: 100px;
+    color: white;
+    font-size: 80px;
+}
+
+@media (max-width: 600px) {
+    .footer-discord {
+        font-size: 40px;
+        right: 55px;
+    }
+    .footer-twitter {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 450px) {
+    .footer-discord {
+        top: 140px;
+    }
+    .footer-twitter {
+        top: 140px;
+    }
+
+    .footer-text {
+        display:none;
+    }
+}
+
+
+
+
+
+
+.text-center {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.width-50 {
+    width: 50%;
+}
+
+.margin-top-100 {
+    margin-top: 100px;
+}
+
+.margin-top-50 {
+    margin-top: 50px;
+}
+
+.margin-bottom-50 {
+    margin-bottom: 50px;
+}
+
