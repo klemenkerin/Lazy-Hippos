@@ -14,7 +14,7 @@ function Header() {
                     <button className="connect">connect wallet</button>
                 </div>
                 <div className="content-header">
-                <img src="img/hippo.gif" alt="hippo" className="hippo-image"></img>
+                <img src="img/hippo-gif.gif" alt="hippo" className="hippo-image"></img>
                 <h1>Meet our lazy hippos!</h1>
                 <h2 className="hippo-description">10.000 randomly generated very<br /> lazy hippos living on Solana</h2>
 

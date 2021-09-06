@@ -88,8 +88,7 @@ button:hover {
 .header {
     width: 100%;
     height: 100vh;
-    background-color: #EAFFD0;
-    border-radius: 0 0 50px 50px;
+    background: #EAFFD0 url("img/hippo-line-150.png") repeat-x left bottom;
 }
 
 .container {
@@ -143,7 +142,7 @@ button:hover {
 
 .content-header {
     position: relative;
-    top: 240px;
+    top: 180px;
 }
 
 .hippo-description {
