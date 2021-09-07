@@ -1,5 +1,10 @@
 import React from "react";
 
+
+function connect() {
+    alert("Coming soon!");
+}
+
 function Header() {
     return (
         <div className="header">
@@ -11,7 +16,7 @@ function Header() {
                         <a href="https://lazyhippo.art/#roadmap" className="menu-item">roadmap</a>
                         <a href="https://lazyhippo.art/#faq" className="menu-item">FAQ</a>
                     </div>
-                    <button className="connect">connect wallet</button>
+                    <button className="connect" onClick={connect}>connect wallet</button>
                 </div>
                 <div className="content-header">
                 <img src="img/hippo-gif.gif" alt="hippo" className="hippo-image"></img>

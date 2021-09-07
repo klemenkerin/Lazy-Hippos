@@ -5,7 +5,7 @@ function Attributes() {
     return (
         <div className="attributes" id="attributes">
             <div className="container">
-                <h2 class="text-center width-50 attributes-title">With 945.000 posible combinations of hand drawn attributes, your Hippo will truly be one of a kind</h2>
+                <h2 class="text-center width-50 attributes-title">With 9.720.000 posible combinations of hand drawn attributes, your Hippo will truly be one of a kind</h2>
                 <div class="flex-container margin-top-100">
                     <div className="attribute-category">
                         <h3>Body:</h3>
@@ -22,8 +22,9 @@ function Attributes() {
                         <h3>Eyes:</h3>
                         <ul>
                             <li>Bored - common</li>
-                            <li>High - common</li>
+                            <li>Angry - common</li>
                             <li>Asian - common</li>
+                            <li>High - common</li>
                             <li>Dizzy - rare</li>
                             <li>LV sunglasses - extremely rare</li>
                         </ul>
@@ -40,13 +41,13 @@ function Attributes() {
                         </ul>
                     </div>
                     <div className="attribute-category">
-                        <h3>Headwear:</h3>
+                        <h3>Hand</h3>
                         <ul>
-                            <li>Ear piercing - common</li>
-                            <li>Angel glow - common</li>
-                            <li>Dizzy stars - common</li>
-                            <li>Party cone - common</li>
-                            <li>Double ear piercing - extremely rare</li>
+                            <li>White flag - common</li>
+                            <li>Banana - common</li>
+                            <li>Beer - common</li>
+                            <li>Milk - rare</li>
+                            <li>Alien flag - extremely rare</li>
                         </ul>
                     </div>
                     <div className="attribute-category">
@@ -70,14 +71,27 @@ function Attributes() {
                         </ul>
                     </div>
                     <div className="attribute-category">
-                        <h3>Hand</h3>
+                        <h3>Background:</h3>
                         <ul>
-                            <li>White flag - common</li>
-                            <li>Banana - common</li>
-                            <li>Beer - common</li>
-                            <li>Milk - rare</li>
-                            <li>Alien flag - extremely rare</li>
-                            <li>Hitler flag - extremely rare</li>
+                            <li>Salmon - common</li>
+                            <li>Orange - common</li>
+                            <li>Turquoise - common</li>
+                            <li>Green - common</li>
+                            <li>Blue - common</li>
+                            <li>Grey - common</li>
+                            <li>Rose - common</li>
+                            <li>Red - rare</li>
+                            <li>Purple - extremely rare</li>
+                        </ul>
+                    </div>
+                    <div className="attribute-category">
+                        <h3>Headwear:</h3>
+                        <ul>
+                            <li>Ear piercing - common</li>
+                            <li>Angel glow - common</li>
+                            <li>Dizzy stars - common</li>
+                            <li>Angel glow - common</li>
+                            <li>Double ear piercing - extremely rare</li>
                         </ul>
                     </div>
                     <div className="attribute-category">
@@ -89,7 +103,8 @@ function Attributes() {
                             <li>Construction vest - common</li>
                             <li>Angel wings - rare</li>
                             <li>Gold chain - rare</li>
-                            <li>Jesus gold chain - extra rare</li>
+                            <li>Jesus gold chain - extremely rare</li>
+                            <li>Alien T-shirt - extremely rare</li>
                         </ul>
                     </div>
                 </div>

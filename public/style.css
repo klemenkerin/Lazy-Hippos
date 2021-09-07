@@ -83,6 +83,7 @@ button {
 
 button:hover {
     background-color: #d17285;
+    cursor: pointer;
 }
 
 .header {
@@ -151,7 +152,7 @@ button:hover {
 }
 
 .hippo-image {
-    width: 480px;
+    width: 400px;
     float: right;
 }
 
