@@ -37,7 +37,6 @@ function Attributes() {
                             <li>Tongue - common</li>
                             <li>Moustache - rare</li>
                             <li>Rolling stones - extremely rare</li>
-                            <li>Hitler moustache - extremely rare</li>
                         </ul>
                     </div>
                     <div className="attribute-category">
@@ -111,6 +110,5 @@ function Attributes() {
             </div>
         </div>);
 }
-
 
 export default Attributes;
