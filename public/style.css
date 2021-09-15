@@ -42,7 +42,7 @@ h3 {
         font-size: 14px !important;
     }
     .connect {
-        display:none;
+        display:none !important;
     }
 }
 
@@ -69,6 +69,20 @@ li {
 }
 
 
+.connect {
+    color: #FFF !important;
+    background-color: #F38BA0 !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    font-family: 'Balsamiq Sans', cursive !important;
+    border: solid 2px #000 !important;
+    width: 188px !important;
+    height: 48px !important;
+    border-radius: 12px !important;
+    line-height: 1 !important;
+    text-transform: none !important;
+}
+
 button {
     color: #FFF;
     background-color: #F38BA0;
@@ -81,9 +95,9 @@ button {
     border-radius: 12px;
 }
 
-button:hover {
-    background-color: #d17285;
-    cursor: pointer;
+.connect:hover {
+    background-color: #d17285 !important;
+    cursor: pointer !important;
 }
 
 .header {
@@ -137,8 +151,8 @@ button:hover {
 }
 
 .connect {
-    position: absolute;
-    right: 0;
+    position: absolute !important;
+    right: 0 !important;
 }
 
 .content-header {
@@ -162,8 +176,12 @@ button:hover {
     }
 }
 
+.mint-button {
+    margin: 5px 0 40px 0;
+}
+
 .coming-soon {
-    margin-top: 65px;
+    margin-top: 50px;
 }
 
 .fa-discord {
