@@ -7,7 +7,7 @@ function Roadmap() {
                 <h2 class="text-center width-50 margin-bottom-50">Roadmap</h2>
                 <div className="RoadmapRow">
                     <div className="RoadmapCard-Root">
-                        <div><h3>Presale</h3></div>
+                        <div><h3>Presale - 24th of September, 4pm UTC</h3></div>
                         <div><p>We want to reward our most loyal followers with an access to a presale.</p></div>
                     </div>
                     <div className="RoadmapLine">
@@ -20,7 +20,7 @@ function Roadmap() {
 
                 <div className="RoadmapRow RoadmapRowFlip">
                     <div className="RoadmapCard-Root">
-                        <div><h3>Successfull launch</h3></div>
+                        <div><h3>Successfull launch - 26th of September, 4pm UTC</h3></div>
                         <div><p>Launch of remaining Hippos to all our comunity members with a fair minting process.</p></div>
                     </div>
                     <div className="RoadmapLine">
@@ -47,7 +47,7 @@ function Roadmap() {
                 <div className="RoadmapRow RoadmapRowFlip">
                     <div className="RoadmapCard-Root">
                         <div><h3>Rarity calculator</h3></div>
-                        <div><p>We want to tell you just how rare or common your hippo is with a rarity calculator integrated in our website.</p></div>
+                        <div><p>We want to tell you just how rare your hippo is with a rarity calculator integrated in our website.</p></div>
                     </div>
                     <div className="RoadmapLine">
                         <div className="RoadmapLineCenter">

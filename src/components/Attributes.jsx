@@ -5,7 +5,7 @@ function Attributes() {
     return (
         <div className="attributes" id="attributes">
             <div className="container">
-                <h2 class="text-center width-50 attributes-title">With 9.720.000 posible combinations of hand drawn attributes, your Hippo will truly be one of a kind</h2>
+                <h2 class="text-center width-50 attributes-title">With 36.288.000 posible combinations of hand drawn attributes, your Hippo will truly be one of a kind</h2>
                 <div class="flex-container margin-top-100">
                     <div className="attribute-category">
                         <h3>Body:</h3>
@@ -24,8 +24,10 @@ function Attributes() {
                             <li>Bored - common</li>
                             <li>Angry - common</li>
                             <li>Asian - common</li>
-                            <li>High - common</li>
+                            <li>High - rare</li>
                             <li>Dizzy - rare</li>
+                            <li>Pilot sunglasses - rare</li>
+                            <li>Mike Tyson - extremely rare</li>
                             <li>LV sunglasses - extremely rare</li>
                         </ul>
                     </div>
@@ -36,16 +38,21 @@ function Attributes() {
                             <li>Happy - common</li>
                             <li>Tongue - common</li>
                             <li>Moustache - rare</li>
+                            <li>Goatee - rare</li>
                             <li>Rolling stones - extremely rare</li>
+                            <li>Gold teeth - extremely rare</li>
+                            <li>Hitler moustache - extremely rare</li>
                         </ul>
                     </div>
                     <div className="attribute-category">
                         <h3>Hand</h3>
                         <ul>
-                            <li>White flag - common</li>
+                            <li>Flag - common</li>
                             <li>Banana - common</li>
                             <li>Beer - common</li>
+                            <li>Spear - common</li>
                             <li>Milk - rare</li>
+                            <li>Money bag - rare</li>
                             <li>Alien flag - extremely rare</li>
                         </ul>
                     </div>
@@ -65,6 +72,7 @@ function Attributes() {
                             <li>Clouds - common</li>
                             <li>Sun - common</li>
                             <li>Moon - common</li>
+                            <li>Yacht - rare</li>
                             <li>Space ship - rare</li>
                             <li>Saturn - extremely rare</li>
                         </ul>
@@ -89,7 +97,7 @@ function Attributes() {
                             <li>Ear piercing - common</li>
                             <li>Angel glow - common</li>
                             <li>Dizzy stars - common</li>
-                            <li>Angel glow - common</li>
+                            <li>Airpods - rare</li>
                             <li>Double ear piercing - extremely rare</li>
                         </ul>
                     </div>
@@ -100,10 +108,12 @@ function Attributes() {
                             <li>Undershirt - common</li>
                             <li>Blanket - common</li>
                             <li>Construction vest - common</li>
+                            <li>Pink T-shirt - common</li>
+                            <li>Alien T-shirt -rare</li>
                             <li>Angel wings - rare</li>
                             <li>Gold chain - rare</li>
+                            <li>Versace T-shirt - extremely rare</li>
                             <li>Jesus gold chain - extremely rare</li>
-                            <li>Alien T-shirt - extremely rare</li>
                         </ul>
                     </div>
                 </div>

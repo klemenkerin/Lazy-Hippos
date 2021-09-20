@@ -9,15 +9,15 @@ function FAQ() {
                 <div class="flex-container margin-top-50">
                     <div class="question">
                         <h3>What are Lazy Hippos?</h3>
-                        <p>Lazy Hippos is a collection of 10.000 algorithmically generated Hippos with hand drawn attributes. You can get your Hippo in the form of a nft on Solana blockchain.</p>
+                        <p>Lazy Hippos is a collection of 10.000 algorithmically generated Hippos with hand drawn attributes. You can get your Hippo in the form of an nft on Solana blockchain.</p>
                     </div>
                     <div class="question">
                         <h3>When is the mint date?</h3>
-                        <p>We are planning to first create a presale for our most loyal community members. The main launch will happen soon after the presale. We are anticipating both launches to happen in the first half of September.</p>
+                        <p>Presale will be on 24th of September at 4pm UTC. Our main launch will happen on 26th of September at 4pm UTC.</p>
                     </div>
                     <div class="question">
                         <h3>Which Solana wallets can I use?</h3>
-                        <p>We are going to support Phantom wallet. If there is a big demand for other wallets, we can add those too.</p>
+                        <p>You can use Phantom, Sollet or Solflare wallet. We recommend using Phantom wallet.</p>
                     </div>
                     <div class="question">
                         <h3>Who are you?</h3>
@@ -25,7 +25,7 @@ function FAQ() {
                     </div>
                     <div class="question">
                         <h3>How much will it cost to mint a Hippo?</h3>
-                        <p>Presale price will be only 1 SOL, so make sure you join our discord to be able to mint at presale. Main launch price will be 3 SOL per Hippo.</p>
+                        <p>Presale price will be only 1 SOL, so make sure you join our discord to be able to mint at presale. Main launch price will be 2 SOL per Hippo.</p>
                     </div>
                     <div class="question">
                         <h3>Is there a limit on how many we can get?</h3>
