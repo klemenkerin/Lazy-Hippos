@@ -39,7 +39,7 @@ function Attributes() {
                             <li>Tongue - common</li>
                             <li>Moustache - rare</li>
                             <li>Goatee - rare</li>
-                            <li>Rolling stones - extremely rare</li>
+                            <li>Rolling Stones - extremely rare</li>
                             <li>Gold teeth - extremely rare</li>
                             <li>Hitler moustache - extremely rare</li>
                         </ul>

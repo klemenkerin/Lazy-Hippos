@@ -9,7 +9,8 @@ import * as anchor from "@project-serum/anchor";
 
 import { LAMPORTS_PER_SOL } from "@solana/web3.js";
 
-import { useWallet } from "@solana/wallet-adapter-react";
+import { useAnchorWallet } from "@solana/wallet-adapter-react";
+
 import { WalletDialogButton } from "@solana/wallet-adapter-material-ui";
 
 import {
@@ -51,13 +52,13 @@ const Header = (props: HomeProps) => {
 
     const [startDate, setStartDate] = useState(new Date(props.startDate));
 
-    const wallet = useWallet();
+    const wallet = useAnchorWallet();
     const [candyMachine, setCandyMachine] = useState<CandyMachine>();
 
     const onMint = async () => {
         try {
           setIsMinting(true);
-          if (wallet.connected && candyMachine?.program && wallet.publicKey) {
+          if (wallet && candyMachine?.program) {
             const mintTxId = await mintOneToken(
               candyMachine,
               props.config,
@@ -112,8 +113,8 @@ const Header = (props: HomeProps) => {
             severity: "error",
           });
         } finally {
-          if (wallet?.publicKey) {
-            const balance = await props.connection.getBalance(wallet?.publicKey);
+          if (wallet) {
+            const balance = await props.connection.getBalance(wallet.publicKey);
             setBalance(balance / LAMPORTS_PER_SOL);
           }
           setIsMinting(false);
@@ -122,24 +123,10 @@ const Header = (props: HomeProps) => {
 
     useEffect(() => {
     (async () => {
-        if (
-        !wallet ||
-        !wallet.publicKey ||
-        !wallet.signAllTransactions ||
-        !wallet.signTransaction
-        ) {
-        return;
-        }
-
-        const anchorWallet = {
-        publicKey: wallet.publicKey,
-        signAllTransactions: wallet.signAllTransactions,
-        signTransaction: wallet.signTransaction,
-        } as anchor.Wallet;
-
+        if (!wallet) return;
         const { candyMachine, goLiveDate, itemsRemaining } =
         await getCandyMachineState(
-            anchorWallet,
+            wallet as anchor.Wallet,
             props.candyMachineId,
             props.connection
         );
@@ -162,19 +149,19 @@ const Header = (props: HomeProps) => {
                         <a href="https://lazyhippo.art/#roadmap" className="menu-item">roadmap</a>
                         <a href="https://lazyhippo.art/#faq" className="menu-item">FAQ</a>
                     </div>
-                    {!wallet.connected ? ( <ConnectButton className="connect">connect wallet</ConnectButton>) : ( <ConnectButton className="connect" disabled>{shortenAddress(wallet.publicKey?.toBase58() || "")}</ConnectButton>)}
+                    {!wallet ? ( <ConnectButton className="connect button-hover">connect wallet</ConnectButton>) : ( <ConnectButton className="connect" disabled>{shortenAddress(wallet.publicKey.toBase58() || "")}</ConnectButton>)}
                 </div>
                 <div className="content-header">
                 <img src="img/hippo-gif.gif" alt="hippo" className="hippo-image"></img>
                 <h1>Meet our lazy hippos!</h1>
-                <h2 className="hippo-description">10.000 randomly generated very<br /> lazy hippos living on Solana</h2>
+                <h2 className="hippo-description">10.000 randomly generated very<br /> lazy hippos living on Solana blockchain.</h2>
 
-                {(<h2 className="coming-soon">{!isActive ? "Presale starting in" : ""}</h2>)}
+                {(<h3 className="coming-soon">{!isActive ? "Presale starting soon. Mint price 1 SOL." : "Price 1 SOL"}</h3>)}
 
                 <MintContainer>
                     {(
                 <button
-                    className="mint-button"
+                    className={!isActive ? "mint-button" : "mint-button button-hover"}
                     disabled={isSoldOut || isMinting || !isActive}
                     onClick={onMint}
                 >

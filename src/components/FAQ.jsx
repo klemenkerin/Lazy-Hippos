@@ -16,7 +16,7 @@ function FAQ() {
                         <p>Presale will be on 24th of September at 4pm UTC. Our main launch will happen on 26th of September at 4pm UTC.</p>
                     </div>
                     <div class="question">
-                        <h3>Which Solana wallets can I use?</h3>
+                        <h3>Which Solana wallets can I use to mint?</h3>
                         <p>You can use Phantom, Sollet or Solflare wallet. We recommend using Phantom wallet.</p>
                     </div>
                     <div class="question">

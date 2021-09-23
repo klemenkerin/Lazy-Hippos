@@ -95,7 +95,7 @@ button {
     border-radius: 12px;
 }
 
-.connect:hover {
+.button-hover:hover {
     background-color: #d17285 !important;
     cursor: pointer !important;
 }
@@ -104,6 +104,12 @@ button {
     width: 100%;
     height: 100vh;
     background: #EAFFD0 url("img/hippo-line-150.png") repeat-x left bottom;
+}
+
+@media(max-width: 560px) {
+    .header {
+        background-image: none;
+    }
 }
 
 .container {
@@ -389,8 +395,29 @@ button {
     }
 }
 
+.MuiPaper-root {
+    border-radius: 20px !important;
+}
 
+.MuiDialogTitle-root {
+    background-color: #7cd1c1 !important;
+}
 
+.MuiTypography-root {
+    line-height: 30px !important;
+}
+
+.MuiTypography-h6 {
+    font-family: 'Balsamiq Sans', cursive !important;
+}
+
+.MuiList-root {
+    background: #95E1D3 !important;
+}
+
+.MuiButton-root {
+    font-family: 'Balsamiq Sans', cursive !important;
+}
 
 
 
