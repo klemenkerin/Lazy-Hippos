@@ -103,12 +103,31 @@ button {
 .header {
     width: 100%;
     height: 100vh;
-    background: #EAFFD0 url("img/hippo-line-150.png") repeat-x left bottom;
+    background-color: #EAFFD0
+}
+
+@keyframes background-scroll {
+    0% {background-position: 0 0;}
+    50% {background-position: 100% 0;}
+    100% {background-position: 0 0;}
+}
+
+.header-bottom-image {
+    height: 140px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: url("img/hippo-line-new.png") repeat-x;
+    animation-name: background-scroll;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
 @media(max-width: 560px) {
-    .header {
-        background-image: none;
+    .header-bottom-image {
+        display:none;
     }
 }
 
@@ -179,6 +198,25 @@ button {
 @media(max-width: 980px) {
     .hippo-image {
         display:none;
+    }
+}
+
+.hippo-gif-mobile {
+    width: 180px;
+    height: auto;
+    margin: 25px auto 25px auto;
+    display: block;
+}
+
+@media (min-width: 560px) {
+    .hippo-gif-mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 560px) {
+    .coming-soon {
+        margin-top: 0px !important;
     }
 }
 

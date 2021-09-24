@@ -152,9 +152,11 @@ const Header = (props: HomeProps) => {
                     {!wallet ? ( <ConnectButton className="connect button-hover">connect wallet</ConnectButton>) : ( <ConnectButton className="connect" disabled>{shortenAddress(wallet.publicKey.toBase58() || "")}</ConnectButton>)}
                 </div>
                 <div className="content-header">
-                <img src="img/hippo-gif.gif" alt="hippo" className="hippo-image"></img>
+                <img className="hippo-image" src="img/hippo-gif.gif" alt="Lazy Hippos"></img>
                 <h1>Meet our lazy hippos!</h1>
                 <h2 className="hippo-description">10.000 randomly generated very<br /> lazy hippos living on Solana blockchain.</h2>
+
+                <img className="hippo-gif-mobile" src="img/hippo-gif.gif" alt="Lazy Hippos"></img>
 
                 {(<h3 className="coming-soon">{!isActive ? "Presale starting soon. Mint price 1 SOL." : "Price 1 SOL"}</h3>)}
 
@@ -202,6 +204,7 @@ const Header = (props: HomeProps) => {
                 <a href="https://twitter.com/SolHippo"><i className="fab fa-twitter"></i></a>
                 </div>
             </div>
+            <div className="header-bottom-image"></div>
         </div>
     );
 }
