@@ -158,7 +158,7 @@ const Header = (props: HomeProps) => {
 
                 <img className="hippo-gif-mobile" src="img/hippo-gif.gif" alt="Lazy Hippos"></img>
 
-                {(<h3 className="coming-soon">{!isActive ? "Presale starting soon. Mint price 1 SOL." : "Price 1 SOL"}</h3>)}
+                {(<h3 className="coming-soon">{!isActive ? "Presale starting soon. Mint price 2 SOL." : "Price 2 SOL"}</h3>)}
 
                 <MintContainer>
                     {(
