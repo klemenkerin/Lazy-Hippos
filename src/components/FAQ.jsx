@@ -9,7 +9,7 @@ function FAQ() {
                 <div class="flex-container margin-top-50">
                     <div class="question">
                         <h3>What are Lazy Hippos?</h3>
-                        <p>Lazy Hippos is a collection of 10.000 algorithmically generated Hippos with hand drawn attributes. You can get your Hippo in the form of an nft on Solana blockchain.</p>
+                        <p>Lazy Hippos is a collection of 1111 algorithmically generated Hippos with hand drawn attributes. You can get your Hippo in the form of an nft on Solana blockchain.</p>
                     </div>
                     <div class="question">
                         <h3>When is the mint date?</h3>
@@ -25,7 +25,7 @@ function FAQ() {
                     </div>
                     <div class="question">
                         <h3>How much will it cost to mint a Hippo?</h3>
-                        <p>Presale price will be only 1 SOL, so make sure you join our discord to be able to mint at presale. Main launch price will be 2 SOL per Hippo.</p>
+                        <p>Price of one Hippo is 0,25 SOL</p>
                     </div>
                     <div class="question">
                         <h3>Is there a limit on how many we can get?</h3>
