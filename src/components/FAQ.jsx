@@ -25,7 +25,7 @@ function FAQ() {
                     </div>
                     <div class="question">
                         <h3>How much will it cost to mint a Hippo?</h3>
-                        <p>Price of one Hippo is 0,25 SOL</p>
+                        <p>Price of one Hippo is 0.25 SOL</p>
                     </div>
                     <div class="question">
                         <h3>Is there a limit on how many we can get?</h3>

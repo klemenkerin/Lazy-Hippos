@@ -5,7 +5,7 @@ function Attributes() {
     return (
         <div className="attributes" id="attributes">
             <div className="container">
-                <h2 class="text-center width-50 attributes-title">With 36.288.000 posible combinations of hand drawn attributes, your Hippo will truly be one of a kind</h2>
+                <h2 class="text-center width-50 attributes-title">With 36,288,000 posible combinations of hand drawn attributes, your Hippo will truly be one of a kind</h2>
                 <div class="flex-container margin-top-100">
                     <div className="attribute-category">
                         <h3>Body:</h3>
