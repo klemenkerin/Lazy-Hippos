@@ -44,6 +44,8 @@ const Header = (props: HomeProps) => {
     const [isSoldOut, setIsSoldOut] = useState(false); // true when items remaining is zero
     const [isMinting, setIsMinting] = useState(false); // true when user got to press MINT
 
+    const [remaining, setRemaining] = useState(-1);
+
     const [alertState, setAlertState] = useState<AlertState>({
         open: false,
         message: "",
@@ -131,6 +133,8 @@ const Header = (props: HomeProps) => {
             props.connection
         );
 
+        setRemaining(itemsRemaining);
+
         setIsSoldOut(itemsRemaining === 0);
         setStartDate(goLiveDate);
         setCandyMachine(candyMachine);
@@ -159,6 +163,7 @@ const Header = (props: HomeProps) => {
                 <img className="hippo-gif-mobile" src="img/hippo-gif.gif" alt="Lazy Hippos"></img>
 
                 {(<h3 className="coming-soon">{!isActive ? "Presale starting soon. Mint price 0.25 SOL." : "Price 0.25 SOL"}</h3>)}
+                {<h3>{remaining != -1 ? "Remaining: " + (remaining + 611) + "/1111" : ""}</h3>}
 
                 <MintContainer>
                     {(
@@ -186,7 +191,7 @@ const Header = (props: HomeProps) => {
                 </button>
                 )}
             </MintContainer>
-
+            
             <Snackbar
                 open={alertState.open}
                 autoHideDuration={6000}
