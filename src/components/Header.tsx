@@ -125,7 +125,7 @@ const Header = (props: HomeProps) => {
 
     useEffect(() => {
     (async () => {
-        if (!wallet) return;
+        //if (!wallet) return;
         const { candyMachine, goLiveDate, itemsRemaining } =
         await getCandyMachineState(
             wallet as anchor.Wallet,
