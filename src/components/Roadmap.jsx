@@ -38,7 +38,7 @@ function Roadmap() {
                     </div>
                     <div className="RoadmapLine">
                         <div className="RoadmapLineCenter">
-                            <div className="RoadmapLineDot"></div>
+                            <div className="RoadmapLineDot filled"></div>
                         </div>
                     </div>
                     <div className="RoadmapEmpty"></div>
@@ -61,6 +61,19 @@ function Roadmap() {
                     <div className="RoadmapCard-Root">
                         <div><h3>Hippo family</h3></div>
                         <div><p>We want to extend our Lazy Hippo family with other family members living on Solana blockchain.</p></div>
+                    </div>
+                    <div className="RoadmapLine">
+                        <div className="RoadmapLineCenter">
+                            <div className="RoadmapLineDot"></div>
+                        </div>
+                    </div>
+                    <div className="RoadmapEmpty"></div>
+                </div>
+
+                <div className="RoadmapRow RoadmapRowFlip">
+                    <div className="RoadmapCard-Root">
+                        <div><h3>Charity donation</h3></div>
+                        <div><p>We want to help our fellow Hippos. That's why we will donate 10% of Hippo sales to African Wild Life Foundation!</p></div>
                     </div>
                     <div className="RoadmapLine">
                         <div className="RoadmapLineCenter">
