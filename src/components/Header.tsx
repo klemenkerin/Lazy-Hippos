@@ -205,7 +205,7 @@ const Header = (props: HomeProps) => {
                 </Alert>
             </Snackbar>
     
-                <a href="https://discord.gg/HmSGCkUk"><i className="fab fa-discord"></i></a>
+                <a href="https://discord.gg/vmrQgSXdED"><i className="fab fa-discord"></i></a>
                 <a href="https://twitter.com/SolHippo"><i className="fab fa-twitter"></i></a>
                 </div>
             </div>
